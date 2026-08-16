@@ -1,0 +1,39 @@
+<svg width="1200" height="210" viewBox="0 0 1200 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .surface{fill:#FFFFFF;stroke:#E5E5EA}.ink{fill:#1D1D1F}.muted{fill:#6E6E73}.soft{fill:#F5F5F7;stroke:#E5E5EA}.icon{stroke:#1D1D1F}.accent{fill:#0071E3}.rule{stroke:#E5E5EA}
+    @media (prefers-color-scheme: dark){.surface{fill:#161B22;stroke:#30363D}.ink{fill:#F5F5F7}.muted{fill:#9BA3AE}.soft{fill:#0D1117;stroke:#30363D}.icon{stroke:#F5F5F7}.accent{fill:#2997FF}.rule{stroke:#30363D}}
+  </style>
+  <defs>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0071E3" stop-opacity="0"/><stop offset="0.5" stop-color="#0071E3" stop-opacity="0.18"/><stop offset="1" stop-color="#0071E3" stop-opacity="0"/></linearGradient>
+    <clipPath id="clip"><rect x="1" y="1" width="1198" height="208" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <rect x="1" y="1" width="1198" height="208" rx="28" class="surface"/>
+    <rect x="36" y="42" width="126" height="126" rx="28" class="soft"/>
+    <g transform="translate(73 73)" class="icon" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="0" y="28" width="52" height="44" rx="12"/>
+      <path d="M12 28V18C12 6 20 0 26 0C32 0 40 6 40 18V28"/>
+      <circle cx="26" cy="48" r="4" class="accent" stroke="none">
+        <animate attributeName="opacity" values="1;0.35;1" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M26 52V60"/>
+    </g>
+
+    <text x="198" y="62" class="muted" font-size="13" font-weight="700" letter-spacing="1.7">PRIVATE CLIENT WORK</text>
+    <text x="198" y="96" class="ink" font-size="29" font-weight="720">Commercial systems stay private.</text>
+    <text x="198" y="126" class="muted" font-size="16.5">
+      <tspan x="198">Client confidentiality protects source code, business data</tspan>
+      <tspan x="198" dy="23">and intellectual property.</tspan>
+      <tspan x="198" dy="23">I can still discuss architecture, ownership and outcomes.</tspan>
+    </text>
+
+    <path d="M812 45V165" class="rule"/>
+    <text x="850" y="77" class="muted" font-size="13" font-weight="700" letter-spacing="1.4">END-TO-END DELIVERY</text>
+    <text x="850" y="112" class="ink" font-size="17" font-weight="650">Architecture · APIs · Data</text>
+    <text x="850" y="142" class="ink" font-size="17" font-weight="650">Testing · Delivery · Operations</text>
+
+    <rect x="-260" y="0" width="260" height="210" fill="url(#shine)" transform="skewX(-12)">
+      <animate attributeName="x" values="-260;1350" dur="14s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .surface{fill:#FFFFFF;stroke:#E5E5EA}.ink{fill:#1D1D1F}.muted{fill:#6E6E73}.accent{stroke:#0071E3}.icon{stroke:#1D1D1F}
+    @media (prefers-color-scheme: dark){.surface{fill:#161B22;stroke:#30363D}.ink{fill:#F5F5F7}.muted{fill:#9BA3AE}.accent{stroke:#2997FF}.icon{stroke:#F5F5F7}}
+  </style>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <rect x="1" y="1" width="374" height="258" rx="28" class="surface"/>
+    <rect x="413" y="1" width="374" height="258" rx="28" class="surface"/>
+    <rect x="825" y="1" width="374" height="258" rx="28" class="surface"/>
+
+    <g transform="translate(36 34)" class="icon" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <rect x="0" y="5" width="40" height="30" rx="8"/>
+      <path d="M10 17H30M10 24H24"/>
+      <circle cx="32" cy="27" r="2" fill="#0071E3" stroke="none">
+        <animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="36" y="112" class="ink" font-size="25" font-weight="700">Backend platforms</text>
+    <text x="36" y="148" class="muted" font-size="17">
+      <tspan x="36">APIs, services, security and data flows</tspan>
+      <tspan x="36" dy="27">designed for reliability and change.</tspan>
+    </text>
+    <path d="M36 218H128" class="accent" stroke-width="3" stroke-linecap="round">
+      <animate attributeName="d" values="M36 218H84;M36 218H128;M36 218H84" dur="7s" repeatCount="indefinite"/>
+    </path>
+
+    <g transform="translate(448 34)" class="icon" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M4 31C12 12 26 7 40 12C32 15 29 24 31 34C19 39 9 38 4 31Z"/>
+      <path d="M10 30C18 28 25 23 31 15"/>
+      <circle cx="36" cy="10" r="3" fill="#0071E3" stroke="none">
+        <animate attributeName="r" values="2;4;2" dur="3.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="448" y="112" class="ink" font-size="25" font-weight="700">Data &amp; automation</text>
+    <text x="448" y="148" class="muted" font-size="17">
+      <tspan x="448">Forecasting, retrieval and workflow</tspan>
+      <tspan x="448" dy="27">automation grounded in real products.</tspan>
+    </text>
+    <path d="M448 218H540" class="accent" stroke-width="3" stroke-linecap="round">
+      <animate attributeName="d" values="M448 218H496;M448 218H540;M448 218H496" dur="7s" begin="1s" repeatCount="indefinite"/>
+    </path>
+
+    <g transform="translate(860 34)" class="icon" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M8 30C3 30 0 26 0 21C0 16 4 12 10 12C12 5 18 1 25 1C33 1 39 6 41 13C47 14 51 18 51 23C51 28 47 31 42 31H8Z"/>
+      <path d="M18 22L25 29L33 18" class="accent"/>
+    </g>
+    <text x="860" y="112" class="ink" font-size="25" font-weight="700">Delivery &amp; operations</text>
+    <text x="860" y="148" class="muted" font-size="17">
+      <tspan x="860">CI/CD, containers, cloud deployment</tspan>
+      <tspan x="860" dy="27">and operational follow-up.</tspan>
+    </text>
+    <path d="M860 218H952" class="accent" stroke-width="3" stroke-linecap="round">
+      <animate attributeName="d" values="M860 218H908;M860 218H952;M860 218H908" dur="7s" begin="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

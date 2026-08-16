@@ -1,0 +1,36 @@
+<svg width="580" height="330" viewBox="0 0 580 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .surface{fill:#FFFFFF;stroke:#E5E5EA}.ink{fill:#1D1D1F}.muted{fill:#6E6E73}.soft{fill:#F5F5F7}.grid{stroke:#E5E5EA}.accent{stroke:#0071E3}.tag{fill:#F5F5F7;stroke:#E5E5EA}
+    @media (prefers-color-scheme: dark){.surface{fill:#161B22;stroke:#30363D}.ink{fill:#F5F5F7}.muted{fill:#9BA3AE}.soft{fill:#0D1117}.grid{stroke:#30363D}.accent{stroke:#2997FF}.tag{fill:#0D1117;stroke:#30363D}}
+  </style>
+  <defs><clipPath id="card"><rect x="1" y="1" width="578" height="328" rx="28"/></clipPath></defs>
+  <g clip-path="url(#card)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <rect x="1" y="1" width="578" height="328" rx="28" class="surface"/>
+    <text x="34" y="47" class="muted" font-size="13" font-weight="700" letter-spacing="1.7">FORECASTING PLATFORM</text>
+    <text x="34" y="91" class="ink" font-size="31" font-weight="720">LeaveCast AI</text>
+    <text x="34" y="124" class="muted" font-size="16">
+      <tspan x="34">Workforce leave forecasting with versioned data,</tspan>
+      <tspan x="34" dy="24">chronological validation and production-ready APIs.</tspan>
+    </text>
+
+    <rect x="34" y="181" width="512" height="88" rx="18" class="soft"/>
+    <g class="grid" stroke-width="1">
+      <path d="M58 207H522M58 232H522M58 257H522"/>
+      <path d="M110 196V260M178 196V260M246 196V260M314 196V260M382 196V260M450 196V260"/>
+    </g>
+    <path d="M58 251C96 247 105 225 144 230C183 235 202 210 244 218C286 226 310 197 350 204C390 211 416 189 452 198C489 207 505 187 522 184" class="accent" opacity="0.18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M58 251C96 247 105 225 144 230C183 235 202 210 244 218C286 226 310 197 350 204C390 211 416 189 452 198C489 207 505 187 522 184" class="accent" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="620" stroke-dashoffset="620">
+      <animate attributeName="stroke-dashoffset" values="620;0;0" keyTimes="0;0.6;1" dur="6.5s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="522" cy="184" r="5" fill="#0071E3">
+      <animate attributeName="r" values="4;7;4" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <g font-size="12" font-weight="650">
+      <rect x="34" y="286" width="82" height="28" rx="14" class="tag"/><text x="75" y="305" text-anchor="middle" class="muted">FastAPI</text>
+      <rect x="124" y="286" width="86" height="28" rx="14" class="tag"/><text x="167" y="305" text-anchor="middle" class="muted">CatBoost</text>
+      <rect x="218" y="286" width="92" height="28" rx="14" class="tag"/><text x="264" y="305" text-anchor="middle" class="muted">Spring Boot</text>
+      <text x="506" y="305" text-anchor="end" fill="#0071E3" font-size="14">View project</text><path d="M518 296H528V306M528 296L516 308" stroke="#0071E3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
