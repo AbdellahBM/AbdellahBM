@@ -7,6 +7,9 @@ This version is intentionally restrained: one visual language, generous spacing,
 ```text
 AbdellahBM/
 ├── README.md
+├── .github/
+│   └── workflows/
+│       └── snake.yml
 └── assets/
     ├── hero.svg
     ├── focus.svg
@@ -26,16 +29,18 @@ AbdellahBM/AbdellahBM
 Then run:
 
 ```bash
-git add README.md assets
-git commit -m "simplify profile with a clean product-style design"
+git add README.md assets .github/workflows/snake.yml
+git commit -m "add subtle animated contribution grid"
 git push origin main
 ```
 
-## Remove the old visual clutter
+## Contribution animation
 
-The new README does not use the former neon assets, typing banner, contribution snake, statistics cards, or terminal-style panels. You can delete those unused files after the new version is live.
+The profile keeps one restrained animation: the GitHub contribution snake. The included workflow generates light and dark SVG versions and publishes them to the `output` branch.
 
-The old snake workflow is no longer needed. Delete `.github/workflows/snake.yml` only when you are sure no other README element depends on it.
+After the first push, open **Actions → Generate contribution snake → Run workflow** once. After that, GitHub Actions refreshes the animation automatically every day.
+
+If the workflow cannot publish the `output` branch, check **Settings → Actions → General → Workflow permissions** and allow read/write permissions for `GITHUB_TOKEN`.
 
 ## Suggested GitHub bio
 
